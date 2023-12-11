@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: Roboto, sans-serif, arial;    
+}
+
+html, body {
+    font-size: 14px;
+    font-weight: 400;
+    background: #000000;
+    color: #fff;
+}
+
+.container{
+    width: 1100px;
+    margin: 0px auto;
+    display: table;
+}
+ 
+.width-33{
+    width: 33%;
+    float: left;
+}
+
+.width-66{
+    width: 66%;
+    float: left;
+}
+
+/* Menu */
+
+.main-panel{ 
+    width: 100%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    height: 100vh;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.span-col{
+    color: #ffbf35;
+}
+
+nav{
+    float: right;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+    color: white;
+}
+
+/* Banner */
+
+.width-50{
+    width: 50%;
+    float: left;
+}
+
+.banner-section{
+    width: 100%;
+    float: left;
+    margin-top: 25vh;
+
+}
+
+.banner-section h1 {
+    font-size: 48px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.banner-section h2{
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.banner-section a{
+    float: left;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #ffbf35;
+    color: #ffbf35;
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+
+/*Main Banner IMG*/
+.main-panel img {
+	margin-top:10%;
+	width:100%;
+	margin-left:10%;
+}
+
+/*Sobre mi*/
+.main-section {
+	width: 100%;
+	float: left;
+	padding:110px 0px 110px 0px;
+}
+
+.bg-lightgrey {
+    background-color: #1a1a1a;
+}
+
+.info-img {
+    width: 100%;
+    padding: 0px 50px;
+    margin-top: 20px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.heading-text{
+    width: 100%;
+    float: left;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ffbf35;
+}
+
+.info p{
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 27px;
+}
+table {
+    width: 100%;
+}
+
+table th, table td{
+    font-size: 16px;
+    text-align: left;
+    padding: 5px 0px;
+}
+
+/*Portfolio*/
+
+.galeria{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+.galeria img{
+    height: auto;
+    width: 95%;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 300px;
+}
+/*Newsletter*/
+
+.newsletter input{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #a1a1a1;
+}
+
+.newsletter button{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 10px;
+    background: #ffbf35;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
+
+/*Contacto*/
+
+.contacto form{
+    width: 66%;
+    margin: 0px auto;
+}
+
+.contacto input,textarea{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #a1a1a1;
+}
+
+.contacto textarea{
+    height: 80px;
+}
+
+.contacto button{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 10px;
+    background: #ffbf35;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+}
+
+/*Footer*/
+
+.width-100{
+    width: 100%;
+    float: left;
+}
+
+.footer {
+    background-color: #202020;
+    padding: 30px 0px 40px 0px;
+    width: 100%;
+    float: left;
+}
+
+.footer-sect{
+    color: #b3b3b3;
+}
+
+.footer-sect a{
+    color:#b3b3b3;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+.social-icon a i{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #cdcdcd;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+}
